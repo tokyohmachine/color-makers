@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  justify-content:center;
+  place-items: center;
+
+}
+
+h1 {
+  text-align: center;
+  }
+
+p {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.primary-colors,
+.secondary-colors,
+.terciary-colors {
+  background-color: whitee;
+  padding: 10px 0;
+
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+  display: inline-block;
+}
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  /* box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8); */
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  /* box-shadow: 0 0 20px 0 #3B7E20CC; */
+  box-shadow: 0 0 20px 0 green;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 0 20px 0 blue;
+
+}
+
+  /* SECONDARY COLORS */
+/* red and blue */
+.magenta {
+  background: linear-gradient(rgb(78, 5, 78), rgb(233, 13, 233), rgb(145, 11, 145));
+  /* box-shadow: 0 10px 20px -10px magenta; */
+  box-shadow: 0 0 20px 0 magenta;
+}
+
+/* rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27) */
+/* green and blue */
+.cyan {
+  background: linear-gradient(#096e6e, #15e7e7, #138383);
+  /* box-shadow: 0 10px 20px -10px #00FFFF; */
+  box-shadow: 0 0 20px 0 #00FFFF;
+
+}
+
+/* red and green */
+.yellow {
+  background: linear-gradient(rgb(107, 116, 12), rgb(233, 245, 16), rgb(158, 158, 24));
+  /* box-shadow: 0 10px 20px -10px rgb(255, 215, 0); */
+  box-shadow: 0 0 20px 0 rgb(190, 190, 0);
+
+}
+
+
+  /* TERCIARY COLORS  */
+  /* green and blue */
+.spring-green {
+  background: linear-gradient(#3e5f06, #97db0e, #45810a);
+  /* box-shadow: 0 10px 20px -10px #00FF7F; */
+  box-shadow: 0 0 20px 0 #00FF7F;
+
+}
+/* red and blue */
+.violet {
+  background: linear-gradient(hsl(300, 95%, 23%), hsl(280, 81%, 51%), hsl(281, 85%, 11%));
+  /* box-shadow: 0 10px 20px -10px #EE82EE; */
+  box-shadow: 0 0 20px 0 #EE82EE;
+}
+/* red and green */
+.orange {
+  background: linear-gradient(rgb(128, 80, 4), rgb(245, 162, 10), rgb(189, 134, 24));
+  /* box-shadow: 0 10px 20px -10px rgb(255, 168, 0); */
+  box-shadow: 0 0 20px 0 rgb(250, 200, 0);
+}
